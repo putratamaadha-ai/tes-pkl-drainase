@@ -49,7 +49,7 @@ class DrainaseController extends Controller
             'lebar_cm' => $request->lebar_cm,
             'jenis_drainase' => $request->jenis_drainase,
             'kondisi' => $request->kondisi ?? $request->Kondisi,
-            'tahun_pendanaan' => $request->tahun_pendanaan,
+            'tahun_pendataan' => $request->tahun_pendataan,
             'keterangan' => $request->keterangan,
         ]);
 
@@ -75,7 +75,7 @@ class DrainaseController extends Controller
             'lebar_cm' => $request->lebar_cm,
             'jenis_drainase' => $request->jenis_drainase,
             'kondisi' => $request->kondisi ?? $request->Kondisi,
-            'tahun_pendanaan' => $request->tahun_pendanaan,
+            'tahun_pendataan' => $request->tahun_pendataan,
             'keterangan' => $request->keterangan,
         ]);
 

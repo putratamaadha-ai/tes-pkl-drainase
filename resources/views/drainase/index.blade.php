@@ -108,7 +108,7 @@
                                         @endphp
                                         <span class="badge-kondisi {{ $badgeClass }} px-2 py-1">{{ $item->kondisi }}</span>
                                     </td>
-                                    <td class="py-3">{{ $item->tahun_pendanaan }}</td>
+                                    <td class="py-3">{{ $item->tahun_pendataan }}</td>
                                     <td class="text-center py-3">
                                         <div class="d-flex gap-1 justify-content-center">
                                             @if(Route::has('drainase.show'))

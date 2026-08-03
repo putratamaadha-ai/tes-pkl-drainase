@@ -29,7 +29,7 @@ class DrainaseRequest extends FormRequest
             'lebar_cm'        => 'required|numeric|min:0',
             'jenis_drainase'  => 'required|in:Terbuka,Tertutup,Gorong-gorong',
             'kondisi'         => 'required|in:Baik,Tersumbat,Rusak',
-            'tahun_pendanaan' => 'required|integer|digits:4|min:2000|max:' . date('Y'),
+            'tahun_pendataan' => 'required|integer|digits:4|min:2000|max:' . date('Y'),
             'keterangan'      => 'nullable|string',
         ];
     }

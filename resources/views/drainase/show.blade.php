@@ -18,8 +18,8 @@
                     <span class="fw-bold fs-5 text-dark">{{ $drainase->nama_lokasi }}</span>
                 </div>
                 <div class="col-md-6">
-                    <label class="text-muted small d-block">Tahun Pendanaan</label>
-                    <span class="fw-semibold text-dark">{{ $drainase->tahun_pendanaan }}</span>
+                    <label class="text-muted small d-block">Tahun Pendataan</label>
+                    <span class="fw-semibold text-dark">{{ $drainase->tahun_pendataan }}</span>
                 </div>
             </div>
 

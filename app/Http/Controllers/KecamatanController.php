@@ -12,7 +12,8 @@ class KecamatanController extends Controller
      */
     public function index()
     {
-        $kecamatan = Kecamatan::all();
+        $kecamatan = Kecamatan::orderBy('id', 'asc')->paginate(10);
+
         return view('kecamatan.index', compact('kecamatan'));
     }
 

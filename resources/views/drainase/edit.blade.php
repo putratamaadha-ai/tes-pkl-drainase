@@ -44,8 +44,8 @@
                     </div>
 
                     <div class="col-md-6 mb-3">
-                        <label for="tahun_pendanaan" class="form-label">Tahun Pendanaan</label>
-                        <input type="number" class="form-control" id="tahun_pendanaan" name="tahun_pendanaan" value="{{ old('tahun_pendanaan', $drainase->tahun_pendanaan) }}" min="2000" max="2100" required>
+                        <label for="tahun_pendataan" class="form-label">Tahun Pendataan</label>
+                        <input type="number" class="form-control" id="tahun_pendataan" name="tahun_pendataan" value="{{ old('tahun_pendataan', $drainase->tahun_pendataan) }}" min="2000" max="2100" required>
                     </div>
                 </div>
 

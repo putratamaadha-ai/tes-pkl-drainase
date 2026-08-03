@@ -19,7 +19,7 @@ return new class extends Migration
             $table->integer('lebar_cm');
             $table->string('jenis_drainase', 30);
             $table->string('kondisi', 30);
-            $table->integer('tahun_pendanaan');
+            $table->integer('tahun_pendataan');
             $table->text('keterangan')->nullable();
             $table->timestamps();
         });

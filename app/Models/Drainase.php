@@ -17,7 +17,7 @@ class Drainase extends Model
         'lebar_cm',
         'jenis_drainase',
         'kondisi',
-        'tahun_pendanaan',
+        'tahun_pendataan',
         'keterangan',
     ];
 
